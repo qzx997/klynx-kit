@@ -20,3 +20,8 @@
 - `kbase/`: 知识库及存储处理
 - `tools/` (或内建于 agent): 工具集合实现
 - `tui_app.py` / `main.py`: 启动入口与终端 UI 实现
+
+## 5. 发布与部署架构
+- **源码托管**: 使用 GitHub 进行版本控制与协作开发。
+- **打包分发**: 项目通过 `setup.py` 和标准的 Python setuptools 打包机制构建 `sdist` 和 `wheel` 分发。
+- **自动注册机制 (CI/CD)**: 使用 GitHub Actions 作为自动化引擎。通过监听发布事件(`release published`)，流水线会自动对代码环境打包验证，并上传到 PyPI。需要维护的敏感变量储存在仓库 Secrets 中 (如 `PYPI_API_TOKEN`)。
