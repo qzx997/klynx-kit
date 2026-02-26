@@ -1,7 +1,10 @@
 # Klynx
 
 ![PyPI - Version](https://img.shields.io/pypi/v/klynx)
-<!-- ![License](https://img.shields.io/github/license/qzx/klynx) -->
+[![PyPI version](https://img.shields.io/pypi/v/klynx.svg)](https://pypi.org/project/klynx/)
+[![Python versions](https://img.shields.io/pypi/pyversions/klynx.svg)](https://pypi.org/project/klynx/)
+[![License](https://img.shields.io/github/license/qzx997/klynx-kit.svg)](https://github.com/qzx997/klynx-kit/blob/main/LICENSE)
+[![Downloads](https://static.pepy.tech/badge/klynx)](https://pepy.tech/project/klynx)
 
 > [!WARNING] 
 > **当前为测试版本 (Current version is in Beta testing)**
@@ -151,3 +154,4 @@ If you are proposing a significant change or architecture adjustment, please ope
 
 ## 📜 License
 This software is licensed under the [MIT License](LICENSE).
+
