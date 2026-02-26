@@ -1,0 +1,17 @@
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+openai>=1.0.0
+# TUI
+textual>=0.70.0
+# Knowledge Base
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+tavily-python>=0.3.0
+# Utils
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+# Development
+pytest>=8.0.0
+black>=24.0.0
