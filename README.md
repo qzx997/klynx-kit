@@ -134,5 +134,20 @@ app = KlynxTUIApp(
 app.run()
 ```
 
+## 🤝 Contributing
+
+We welcome contributions to Klynx! If you'd like to contribute, please follow these steps:
+
+1. **Fork the repository** on GitHub.
+2. **Clone your fork** locally: `git clone https://github.com/your-username/klynx-kit.git`
+3. **Install dependencies** for development: `pip install -e .` (It's recommended to use a virtual environment).
+4. **Create a new branch** for your feature or bug fix: `git checkout -b feature/your-feature-name`
+5. **Make your changes** and test them thoroughly.
+6. **Commit your changes** with descriptive commit messages.
+7. **Push your branch** to your fork: `git push origin feature/your-feature-name`
+8. **Submit a Pull Request** against the `main` branch of the original Klynx repository.
+
+If you are proposing a significant change or architecture adjustment, please open an Issue first to discuss it with the maintainers.
+
 ## 📜 License
 This software is licensed under the [MIT License](LICENSE).
